@@ -13,10 +13,13 @@
 </head>
 <body>
 
-  Video URL:<br>
-  <input id="url" type="url" />
-  <iframe width="560" height="315"  id="myframe" frameborder="0" allowfullscreen></iframe>
-  <button type="button" id="mybutton" onclick="return embed();" >embed it!</button>
+  <h1>Insert here your URL</h1>
+  <form action="">
+    <input type="text" id="url"/>
+    <input type="button" value='Get It!'id="sendUrl" onclick="getId"/>
+  </form>
+  Your Video: <pre id="myVideo"></pre>
+  
 
 </body>
 </html>
